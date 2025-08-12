@@ -1,5 +1,6 @@
 Deploy Application on Kubernetes with Minikube
-Overview
+
+Overview:
 This project demonstrates deploying a simple application on a local Kubernetes cluster using Minikube.
 The application is containerized with Docker, deployed via Kubernetes manifests, and exposed through a NodePort service.
 
@@ -8,7 +9,7 @@ deployment.yaml – Defines the application deployment on Kubernetes.
 
 service.yaml – Defines the service to expose the application.
 
-Dockerfile (optional) – Used to build a custom image.
+Dockerfile  – Used to build a custom image.
 
 screenshots/ – Contains proof of each step (Minikube start, pods, services, browser output).
 
